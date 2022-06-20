@@ -1,0 +1,39 @@
+{
+    "pages": [
+        "pages/index/index",
+        "pages/logs/logs",
+        "pages/tempera/tempera",
+        "pages/camera/camera"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#fff",
+        "navigationBarTitleText": "Weixin",
+        "navigationBarTextStyle": "black"
+    },
+    "style": "v2",
+    "sitemapLocation": "sitemap.json",
+    "tabBar": {
+        "selectedColor":"#33a3dc", 
+        "list": [
+          {
+            "pagePath": "pages/index/index",
+            "text": "首页",
+            "iconPath": "pages/icons/9040390_hand_index_thumb_icon.png",
+            "selectedIconPath": "pages/icons/9040411_hand_index_icon.png"
+          },
+          {
+            "pagePath": "pages/tempera/tempera",
+            "text": "温湿度",
+            "iconPath": "pages/icons/171462_temperature_icon.png",
+            "selectedIconPath": "pages/icons/6079686_fever_temperature_thermometer_icon.png"
+          },
+          {
+            "pagePath": "pages/camera/camera",
+            "text": "相机",
+            "iconPath": "pages/icons/211705_camera_icon.png",
+            "selectedIconPath": "pages/icons/211634_camera_icon.png"
+          }
+        ]
+      }
+}
