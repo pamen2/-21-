@@ -1,0 +1,5 @@
+<view class="content"><image src="{{motivate}}" mode="aspectFill"></image></view>
+<view class="time"><view>上传时间：{{time}}</view>
+<view>上传arduino型号：{{number}}</view>
+</view>
+<button class="login-btn" bindtap="refresh" >获取最新图片</button>  

@@ -1,0 +1,14 @@
+.login-btn{
+    width: 40%!important;
+    background-color:black;
+    color: white;
+    font-weight: normal;
+  }
+.time{
+    height: 50px;
+    font-size: 36;
+    font-weight: bold;
+}
+.content{
+    widows: 375px;
+}
